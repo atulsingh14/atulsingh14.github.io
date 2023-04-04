@@ -4,139 +4,139 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Atul Singh</title>
   </head>
   <body>
-    <!-- Main -->
-    <div class="main">
-      <div class="main-element">
+    <!-- Main-Section -->
+    <section id="main-section">
+      <div class="main-container">
         <div class="hello">Hello, I am</div>
-        <div class="name">ATUL SINGH</div>
-        <div class="desc">Full Stack developer and UI/UX Designer</div>
-        <div class="main-buttons">
-          <button>Resume</button>
-          <button>Get In Touch</button>
+        <div class="name">Atul Singh</div>
+        <div class="main-description">
+          Full Stack Developer and UI/UX Designer
         </div>
-      </div>
-    </div>
+        <a href="./resume.html" target="_blank">
+          <div class="resume-button">Resume</div>
+        </a>
+    </section>
 
     <!-- About Section -->
-    <div class="about-container">
-      <div class="about">
-        <div class="heading">About</div>
-        <div class="desc-about">
-          I am Atul Singh, a Full Stack Developer and UI/UX Designer from India.
-          I am passionate about web development and design. I have been
-          continuously learning and building projects to hone my skills in
-          front-end and back-end technologies such as HTML, CSS, JavaScript,
-          Node.js, and React, as well as in creating intuitive and user-friendly
-          interfaces.
-        </div>
-        <div class="desc-about">
-          As a quick learner, team player, and problem solver, I am always eager
-          to take on new challenges, learn new technologies, and contribute my
-          skills to innovative projects. If you have any questions or would like
-          to connect, please feel free to reach out. Thank you for your time.
-        </div>
-      </div>
-      <div class="button-container">
-        <button class="logo logo-button-1">
-          <img src="./images/Github-logo.svg" alt="Github Logo" /></button
-        ><button class="logo logo-button-2">
-          <img src="./images/LinkedIn-logo.svg" alt="LinkedIn-logo" />
-        </button>
-      </div>
-    </div>
-
-    <!-- Skills-Section -->
-
-    <div class="Skills-container">
-      <div class="skills">
-        <div class="heading">Skills</div>
-        <div class="skills-wrapper">
-          <div class="skills-list logo-button-3">C</div>
-          <div class="skills-list logo-button-4">C++</div>
-          <div class="skills-list logo-button-5">Python</div>
-          <div class="skills-list logo-button-6">HTML</div>
-          <div class="skills-list logo-button-7">CSS</div>
-          <div class="skills-list logo-button-8">JavaScript</div>
-          <div class="skills-list logo-button-9">Java</div>
-          <div class="skills-list logo-button-10">Figma</div>
-          <div class="skills-list logo-button-11">Android Studio</div>
-          <div class="skills-list logo-button-12">Git</div>
-          <div class="skills-list logo-button-13">Github</div>
-          <div class="skills-list logo-button-14">VS Code</div>
+    <section id="about-section">
+      <div class="about-container">
+        <div class="about-desc">
+          <div class="heading">About</div>
+          <div class="description">
+            I am Atul Singh, a Full Stack Developer and UI/UX Designer from India.
+            I am passionate about web development and design. I have been
+            continuously learning and building projects to hone my skills in
+            front-end, back-end technologies as well as in creating intuitive and
+            user-friendly interfaces. <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a
+            quick learner, team player, and problem solver, I am always eager to
+            take on new challenges, learn new technologies, and contribute my
+            skills to innovative projects. If you have any questions or would like
+            to connect, please feel free to reach out. Thank you for your time.
+          </div>
+          <div class="contact-links">
+            <a href="https://github.com/atulsingh14" target="_blank">
+              <div class="links">
+                <img
+                src="./assets/Github-logo.svg"
+                alt="Github Logo"
+                class="logo"
+                />
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/atulsingh14/" target="_blank">
+              <div class="links">
+                <img
+                src="./assets/LinkedIn-logo.svg"
+                alt="LinkedIn Logo"
+                class="logo"
+                />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Projects-Section -->
-    <div class="project-section">
-      <div class="heading">Projects</div>
-      <div class="projects project-1">
-        <div class="ref-image">
-          <img
-            id="password-manager"
-            src="./images/password-manager.svg"
-            alt="password-manager-image"
-          />
-        </div>
-        <div class="project-desc">
-          <div class="heading">Password Manager</div>
-          <div class="details">
+    <!-- Skills Section -->
+    <section id="skills-section">
+      <div class="heading">Skills</div>
+      <div class="skills-container">
+        <div class="skills-icon">C</div>
+        <div class="skills-icon">C++</div>
+        <div class="skills-icon">Python</div>
+        <div class="skills-icon">HTML</div>
+        <div class="skills-icon">CSS</div>
+        <div class="skills-icon">Java</div>
+        <div class="skills-icon">JavaScript</div>
+        <div class="skills-icon">Dart</div>
+        <div class="skills-icon">Figma</div>
+        <div class="skills-icon">Android Studio</div>
+        <div class="skills-icon">Git</div>
+        <div class="skills-icon">Github</div>
+        <div class="skills-icon">Flutter</div>
+        <div class="skills-icon">Visual Studio Code</div>
+      </div>
+    </section>
+
+    <!--Project Section -->
+
+    <section id="project-section">
+      <div class="project-container">
+        <div class="heading">Projects</div>
+        <div class="projects">
+          <div class="sub-heading">Password Manager</div>
+          <div class="image-container">
+            <img
+              src="./assets/password-manager.svg"
+              alt="Password Manager Logo"
+            />
+          </div>
+          <div class="description">
             This Project allows the user to create a Simple Password Manager
             System and input data which is then stored in an sqlite database
             file. The user can also view, update, and delete data from the
             database using simple command line Interface.
           </div>
-          <div class="tools-used">
-            <div class="skills-list logo-button-15">Python</div>
-            <div class="skills-list logo-button-16">SqlLite3 Module</div>
-            <div class="skills-list logo-button-17">Terminal</div>
+          <!-- <div class="tools">
+            </div> -->
+        </div>
+        <div class="projects">
+          <div class="sub-heading">Portfolio</div>
+          <div class="image-container">
+            <img src="./assets/portfolio.svg" alt="" />
           </div>
-        </div>
-      </div>
-      <div class="projects project-1">
-        <div class="ref-image">
-          <img
-            id="password-manager"
-            src="./images/portfolio.svg"
-            alt="password-manager-image"
-          />
-        </div>
-        <div class="project-desc">
-          <div class="heading">Portfolio</div>
-          <div class="details">
+          <div class="description">
             My portfolio is a personal website showcasing my skills and projects
             as a Software Developer. It is created using HTML and CSS, providing
             a clean and modern design that is easy to navigate.It showcases my
             abilities and experience.
           </div>
-          <div class="tools-used">
-            <div class="skills-list logo-button-18">HTML</div>
-            <div class="skills-list logo-button-19">CSS</div>
-            <div class="skills-list logo-button-21">Figma</div>
-            <div class="skills-list logo-button-20">VS Code</div>
-          </div>
+          <!-- <div class="tools">
+            </div> -->
         </div>
       </div>
-    </div>
-    <!-- Get In Touch -->
-    <div class="get-in-touch">
-      <div class="heading">Get-In-Touch</div>
-      <div class="form">
+    </section>
+
+    <section id="contact">
+      <footer>
+        <div class="heading">Contact Me</div>
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
         <input type="text" placeholder="Email" />
-        <input type="text" placeholder="Password" />
-        <input id="message-box" type="text" placeholder="Message" />
-        <div class="submit-button">
-          <button>Submit</button>
-        </div>
-      </div>
-    </div>
+        <input type="text" class="message" placeholder="Message" />
+        <a href="#">
+          <div id="submit-button">Submit</div>
+        </a>
+      </footer>
+    </section>
   </body>
 </html>
