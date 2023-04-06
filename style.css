@@ -210,8 +210,8 @@ img {
 }
 
 .image {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   background-color: #ffffff;
   border-radius: 0.5em;
 }
@@ -271,4 +271,49 @@ button {
 button:hover {
   background-color: #ffffff;
   color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-info {
+    display: grid;
+  }
+  .hello {
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .main-desc {
+    font-size: 1.2rem;
+  }
+  .about-desc {
+    /* width: 100%; */
+  }
+  .heading-skills {
+    font-size: 2rem;
+  }
+  .container {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 110px);
+    grid-template-rows: repeat(5, 110px);
+  }
+  .temp {
+    display: grid;
+  }
+  .project-card {
+    width: 370px;
+    height: auto;
+    box-shadow: none;
+  }
+  .desc {
+    width: auto;
+    padding: 1em 0;
+  }
+  .sub-heading {
+    font-size: 1.5rem;
+  }
+  .project-section {
+    height: 170vh;
+  }
 }
