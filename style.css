@@ -192,7 +192,7 @@ img {
   border: 2px solid;
   border-radius: 0.5em;
   width: 450px;
-  height: 629px;
+  height: auto;
   padding: 1em;
   background-color: #22223b;
   color: #ffffff;
@@ -272,10 +272,22 @@ button:hover {
   background-color: #ffffff;
   color: #000000;
 }
+.contact-heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 1em;
+}
 
 @media only screen and (max-width: 600px) {
-  .about-info {
-    display: grid;
+  .body {
+    width: 100%;
+    padding: 1em;
+  }
+  .main-container {
+    width: 100%;
+    height: 100vh;
+    padding: 1em;
   }
   .hello {
     font-size: 2rem;
@@ -286,20 +298,49 @@ button:hover {
   .main-desc {
     font-size: 1.2rem;
   }
+  .about-container {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .about-info {
+    display: grid;
+  }
   .heading-skills {
     font-size: 2rem;
   }
+
+  .skills-container {
+    width: 100%;
+  }
+
   .container {
     display: grid;
     place-content: center;
     grid-template-columns: repeat(3, 110px);
     grid-template-rows: repeat(5, 110px);
   }
+  #project-section {
+    width: 100%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 1em;
+  }
+  .project-section {
+    width: 100%;
+  }
+  .heading {
+    display: grid;
+    text-align: center;
+  }
   .temp {
     display: grid;
+    gap: 1.5em;
   }
   .project-card {
-    width: 370px;
+    width: 350px;
     height: auto;
     box-shadow: none;
   }
@@ -311,6 +352,34 @@ button:hover {
     font-size: 1.5rem;
   }
   .project-section {
-    height: 170vh;
+    height: 180vh;
+  }
+  #contact-section {
+    width: 100%;
+    padding: 1em;
+    display: grid;
+    place-content: center;
+    text-align: center;
+  }
+  form {
+    width: auto;
+    padding: 1em;
+  }
+
+  input {
+    width: auto;
+  }
+  .submit-button {
+    width: auto;
+    padding: 1em;
+  }
+  button {
+    width: 200px;
+  }
+  .contact-heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 1em;
   }
 }
