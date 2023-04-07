@@ -16,6 +16,14 @@ body {
   width: auto;
   height: auto;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid;
+  padding: 1em;
+  margin-top: 2em;
+  border-radius: 0.5em;
+}
 
 @media only screen and (max-width: 600px) {
   .body {
