@@ -1,0 +1,28 @@
+body {
+  background-color: #000000;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.thank {
+  font-size: 4rem;
+  border: 2px solid;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  width: auto;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    width: 100%;
+    padding: 1.5em;
+  }
+  .thank {
+    font-size: 1.5rem;
+  }
+}
