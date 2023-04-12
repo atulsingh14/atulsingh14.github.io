@@ -283,12 +283,36 @@ button:hover {
   .body {
     width: 100%;
     padding: 1em;
+    margin: 0;
   }
   .main-container {
     width: 100%;
     height: 100vh;
     padding: 1em;
+    background-color: #000000;
+    display: grid;
+    place-content: center;
+    background: #242424; /* fallback for old browsers */
+    background: #242424; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #240b36, #c31432);
+    background: linear-gradient(to top, #240b36, #c31432);
   }
+  .main-container::after {
+    filter: blur(4.5rem);
+    animation: rotation 2s linear infinite;
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0);
+    }
+    50% {
+      transform: rotate(90deg);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+
   .hello {
     font-size: 2rem;
   }
@@ -301,6 +325,13 @@ button:hover {
   .about-container {
     width: 100%;
     padding: 1em;
+  }
+  .contact-container {
+    display: flex;
+  }
+  .icons {
+    height: 100px;
+    aspect-ratio: 1/1;
   }
 
   .about-info {
@@ -330,6 +361,16 @@ button:hover {
   }
   .project-section {
     width: 100%;
+  }
+  .project-card {
+    display: grid;
+    /* border: 2px solid; */
+    border-radius: 0.5em;
+    width: 450px;
+    height: auto;
+    padding: 1em;
+    background-color: #ffffff;
+    color: #000;
   }
   .heading {
     display: grid;
