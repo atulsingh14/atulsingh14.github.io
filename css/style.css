@@ -11,7 +11,7 @@ body {
 .main-container {
   background-color: #22223b;
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   color: #ffffff;
   display: grid;
   place-content: center;
@@ -63,7 +63,7 @@ a {
 
 .about-container {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   display: grid;
   place-content: center;
   text-align: center;
@@ -130,7 +130,7 @@ a {
 
 .skills-container {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   background-color: #22223b;
   color: #ffffff;
   padding: 1em;
@@ -184,7 +184,7 @@ img {
 
 .project-section {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   display: grid;
   place-content: center;
   text-align: center;
@@ -228,7 +228,7 @@ img {
 
 #contact-section {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   background-color: #7d8ca3;
   display: grid;
   place-content: center;
@@ -296,7 +296,7 @@ button:hover {
   }
   .main-container {
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     padding: 1em;
     background-color: #000000;
     display: grid;
@@ -402,7 +402,7 @@ button:hover {
     font-size: 1.5rem;
   }
   .project-section {
-    height: 180vh;
+    height: 180dvh;
   }
   #contact-section {
     width: 100%;
