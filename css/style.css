@@ -283,6 +283,11 @@ button:hover {
   margin-bottom: 1em;
 }
 
+#message-box {
+  overflow: auto;
+  resize: vertical;
+}
+
 @media only screen and (max-width: 600px) {
   .body {
     width: 100%;
