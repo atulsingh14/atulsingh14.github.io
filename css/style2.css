@@ -1,36 +1,46 @@
-body {
-  background-color: #000000;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  display: grid;
-  place-content: center;
-  text-align: center;
-  width: 100vw;
-  height: 100vh;
+:root {
+    --background: #1a2576;
+    --text-color: #ffffff;
+    --accent-color: #ffa400;
+    --border-color: #141d61;
+    --white: #ffffff;
+    --black: #000000;
 }
+
+body {
+    background-color: var(--background);
+    background: url(../assets/Noise.svg);
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
 .thank {
-  font-size: 4rem;
-  border: 2px solid;
-  padding: 1em 2em;
-  border-radius: 0.5em;
-  width: auto;
-  height: auto;
+    font-size: 4rem;
+    border: 2px solid;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    width: auto;
+    height: auto;
 }
 a {
-  text-decoration: none;
-  color: #fff;
-  border: 2px solid;
-  padding: 1em;
-  margin-top: 2em;
-  border-radius: 0.5em;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 0.5em;
 }
 
 @media only screen and (max-width: 600px) {
-  .body {
-    width: 100%;
-    padding: 1.5em;
-  }
-  .thank {
-    font-size: 1.5rem;
-  }
+    .body {
+        width: 100%;
+        padding: 1.5em;
+    }
+    .thank {
+        font-size: 1.5rem;
+    }
 }
