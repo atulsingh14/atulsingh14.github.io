@@ -248,6 +248,8 @@ button {
     body {
         width: 100%;
         margin: 0;
+        background: url(../assets/Noise.svg);
+        background-color: var(--background);
     }
 
     .heading {
@@ -297,7 +299,7 @@ button {
     }
 
     .project-container {
-        width: 100%;
+        width: 80%;
         gap: 0.5em;
         flex-wrap: nowrap;
     }
@@ -307,7 +309,7 @@ button {
     }
     .project {
         height: 15em;
-        width: 80%;
+        width: 100%;
         border: 1px solid var(--text-color);
         border-radius: 0.5em;
     }
@@ -329,7 +331,7 @@ button {
         width: 100%;
     }
     .skills-wrapper {
-        width: 80%;
+        width: 90%;
         height: fit-content;
         display: flex;
         flex-direction: column;
@@ -350,17 +352,17 @@ button {
     }
 
     #contact-section {
-        padding: 10em 0em;
+        padding: 0;
+        height: 100vh;
     }
 
     form {
-        padding: 1em;
         height: auto;
-        width: 80%;
+        width: 90%;
     }
 
     input {
-        padding: 0.8em;
+        padding: 1em;
         font-size: 0.8rem;
         border-radius: 0.5em;
     }
