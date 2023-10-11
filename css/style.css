@@ -107,7 +107,8 @@ p {
 }
 
 #projects-section {
-    height: 120vh;
+    height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,36 +119,43 @@ p {
     width: 80%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
-.project-heading {
-    margin-bottom: 0.5em;
+.project-container1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
+
 .project {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 46%;
-    width: 47%;
-    border: 0.2px solid var(--accent-color);
-    padding: 1em;
-    background-color: var(--background);
+    height: 50%;
+    width: 100%;
+    border: 0.2px solid var(--white);
+    background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
 }
+
 .project1 {
-    height: fit-content;
-    border: none;
+    height: 25%;
     background: none;
+    border: none;
+}
+
+.project2 {
+    background: none;
+    height: 25%;
+    border: none;
 }
 
 .project-title {
     font-size: 2rem;
-    margin-bottom: 1em;
+    margin: 0.5em;
 }
 
 .projectbtn {
+    margin: 1em;
     justify-content: center;
     padding: 1em 3em;
     border: 1px solid var(--accent-color);
@@ -313,16 +321,28 @@ button {
         border: 1px solid var(--text-color);
         border-radius: 0.5em;
     }
-
+    .project-container1 {
+        gap: 0.5em;
+    }
     .project-heading {
         text-align: center;
     }
     .project1 {
+        height: 25%;
+        height: fit-content;
+        background: none;
+        border: none;
+    }
+    .project2 {
+        height: 20%;
+
+        background: none;
         height: fit-content;
         border: none;
     }
     .projectbtn {
-        padding: 0.8em 3em;
+        padding: 0.5em 1.5em;
+        width: fit-content;
         border-radius: 0.5em;
     }
     #skills-section {
