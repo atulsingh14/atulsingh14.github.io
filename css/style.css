@@ -193,7 +193,7 @@ p {
     background-color: var(--accent-color);
     color: var(--black);
     font-weight: 600;
-    border-radius: 0.5em 0.5em 0em 0em;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .logo-container {
@@ -369,6 +369,7 @@ button {
     .title {
         width: auto;
         font-size: 1.5rem;
+         border-radius: 0.5em 0.5em 0em 0em;
     }
     .logo-container {
         width: auto;
